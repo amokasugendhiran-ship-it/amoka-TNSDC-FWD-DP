@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Profile Image -->
+    <img src="https://via.placeholder.com/150" alt="My Profile Photo" class="profile-img">
+    
+    <h1>Hi, I'm Alex 👋</h1>
+    <p>Front-End Developer | CSS Enthusiast</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I enjoy building clean, responsive websites and experimenting with CSS design.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="https://github.com/" target="_blank">
+          <img src="https://via.placeholder.com/300x180" alt="Project One Preview">
+        </a>
+        <h3>Project One</h3>
+        <p>A simple landing page built with HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <a href="https://github.com/" target="_blank">
+          <img src="https://via.placeholder.com/300x180" alt="Project Two Preview">
+        </a>
+        <h3>Project Two</h3>
+        <p>A responsive portfolio layout using Flexbox.</p>
+      </div>
+      <div class="card">
+        <a href="https://github.com/" target="_blank">
+          <img src="https://via.placeholder.com/300x180" alt="Project Three Preview">
+        </a>
+        <h3>Project Three</h3>
+        <p>A modern blog UI with CSS Grid.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Alex | Made with 💻 & CSS</p>
+  </footer>
+</body>
+</html>
